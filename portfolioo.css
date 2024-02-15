@@ -1,12 +1,16 @@
 body{
     text-align: center;
+    background-image:url(".vscode/port.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 header{
-    background-color: black;
+    background-color:black;
     padding: 10px;
 }
 header h2{
-    color: aliceblue;
+    color:blueviolet;
 }
 nav ul li{
     display: inline;
@@ -14,23 +18,27 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: burlywood;
+    color:brown;
 }
 #Home img{
     height: 180px;
     width: 180px;
     border-radius: 50%;
+    
 }
 #Home p{
     word-spacing: 10px;
+    color:goldenrod;
 }
 #PortFolio{
     background-color: blanchedalmond;
     padding: 10px;
+
 }
 li{
     display: inline;
     padding: 10px;
+    color:darkgoldenrod;
 }
 footer{
     background-color: black;
@@ -42,4 +50,9 @@ footer p{
 #Bio pre{
     line-height:20px;
     word-spacing: 5px;
+    color:gold;
 }
+main h2{
+    color:aliceblue;
+}
+
