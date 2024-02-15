@@ -1,0 +1,11 @@
+body{
+    padding-top:350px;
+    background-image:url("rcba.jpg");
+    text-align: center;
+    background-attachment:fixed;
+    background-size: cover;
+}
+h1{
+    color: bisque;
+    text-shadow: 5px blueviolet;
+}
