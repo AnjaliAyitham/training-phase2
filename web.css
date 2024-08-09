@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: Arial, sans-serif;
+}
+
+h2, p, input, button {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#guess {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#btn {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#btn:hover {
+    background-color: #45a049;
+}
+
+#msg {
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
